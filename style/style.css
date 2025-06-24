@@ -2,4 +2,87 @@
     box-sizing: border-box;
     margin: 0;
     scroll-behavior: smooth;
+    font-family: "Montserrat", sans-serif;
 }
+
+body {
+    min-height: 100vh;
+    max-width: 100%;;
+
+}
+.main-container {
+
+}
+
+.left-container-input {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.span-color {
+    color: rgb(255, 128, 0);
+    padding-top: 16px;
+}
+
+.opener-controll {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.menu-bar-container {
+    height: 40px;
+    background-color: rgb(219, 219, 219);
+    margin-top: 16px;
+}
+
+.menu-bar {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 16px;
+}
+.menu-bar a:hover{
+    color: rgb(255, 128, 0);
+}
+
+.menu-bar a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+}
+
+.main-food img{
+    height: 150px;
+    object-fit: cover;
+    width: 100%;
+    padding-top: 16px;
+}
+.main-food span {
+    padding-left: 8px;
+    font-weight: 500;
+}
+
+.all-dishes {
+    padding-top: 16px;
+    padding-left: 8px;
+}
+.border-controller{
+    margin-left: 8px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.pizza-salami {
+    line-height: 30px;
+    border-style: solid;
+    border-color: rgb(211, 211, 211);
+    margin-top: 16px;
+}
+.pizza-salami p {
+    color: rgb(255, 128, 0);
+}
+
+
+
+

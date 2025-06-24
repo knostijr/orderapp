@@ -1,19 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OrderApp</title>
-    
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,
+    wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..
+    900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href ="./style/responsive.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <link rel="stylesheet" href="./style/navbar.css">
+
 
     <script src="scripts/script.js"></script>
     <script src="scripts/templates.js"></script>
-    <script src ="scripts/foodInput.js"></script>
+    <script src="scripts/foodInput.js"></script>
 
 </head>
-<body>
-    
+
+<body onload="">
+
+    <nav class="navbar">
+        <div class="navbar-container">
+            <img class="logo-sizing" src="assets/Logo/Logo.png">
+            <img class="icon-sizing" src="assets/Favicon/apple-touch-icon.png">
+        </div>
+    </nav>
+
+    <div class="main-container" id="content">
+        
+        <div class="left-container">
+            <img class="opener-controll" src="assets/img/opener.jpg">
+            <div class="left-container-input">
+                <h2>House of Pizza</h2>
+                <span class="span-color" id="evaluation">Bewertung (4,2 von 5 Sternen)</span>
+
+                <div class="menu-bar-container">
+                    <nav class="menu-bar">
+                        <img src="">
+                        <a href="">Hauptgericht</a>
+                        <a href="">Beilagen</a>
+                    </nav>
+                </div>
+
+                <div class="main-food">
+                    <img src="./assets/img/hauptgericht.jpg">
+                    <span>Hauptgerichte</span>
+                </div>
+
+                <div class="all-dishes">
+                    <div class="pizza-salami">
+                        <div class="border-controller">
+                            <h3>Pizza Salami</h3>
+                            <span>mit Salami und Champigions</span>
+                            <p>9.50 Euro</p>
+                        </div>
+                    </div>
+                    <div class="pizza-salami">
+                        <div class="border-controller">
+                            <h3>Pizza Salami</h3>
+                            <span>mit Salami und Champigions</span>
+                            <p>9.50 Euro</p>
+                        </div>
+                    </div>
+                    <div class="pizza-salami">
+                        <div class="border-controller">
+                            <h3>Pizza Salami</h3>
+                            <span>mit Salami und Champigions</span>
+                            <p>9.50 Euro</p>
+                        </div>
+                    </div>
+                    <div class="pizza-salami">
+                        <div class="border-controller">
+                            <h3>Pizza Salami</h3>
+                            <span>mit Salami und Champigions</span>
+                            <p>9.50 Euro</p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+        <div class="right-container">
+
+        </div>
+
+
+
+    </div>
+
+
+
 </body>
+
 </html>
