@@ -7,11 +7,18 @@
 
 body {
     min-height: 100vh;
-    max-width: 100%;;
+    max-width: 100%;
 
 }
 .main-container {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
 
+}
+
+.left-container {
+    width: calc(100% - 300px);
 }
 
 .left-container-input {
@@ -19,9 +26,13 @@ body {
     padding-right: 16px;
 }
 
+.span-ctn {
+    padding-top: 16px;
+}
 .span-color {
     color: rgb(255, 128, 0);
-    padding-top: 16px;
+    
+    font-size: 14px;
 }
 
 .opener-controll {
@@ -30,6 +41,10 @@ body {
     object-fit: cover;
 }
 
+
+
+
+/*------Dishes navbar*/
 .menu-bar-container {
     height: 40px;
     background-color: rgb(219, 219, 219);
@@ -52,7 +67,7 @@ body {
     font-size: 16px;
     color: black;
 }
-
+/*------dishes on main*/
 .main-food img{
     height: 150px;
     object-fit: cover;
@@ -61,7 +76,8 @@ body {
 }
 .main-food span {
     padding-left: 8px;
-    font-weight: 500;
+    font-weight: 800;
+    font-size: 24px;
 }
 
 .all-dishes {
@@ -79,10 +95,64 @@ body {
     border-color: rgb(211, 211, 211);
     margin-top: 16px;
 }
+.pizza-salami:hover {
+    background-color: rgba(255, 128, 0, 0.247);
+}
 .pizza-salami p {
     color: rgb(255, 128, 0);
 }
 
 
+/* Warenkorb*/
+.right-container {
+    width: 300px;
+    flex-grow: 1;
+    box-shadow: -4px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
 
+.basked {
+    position: sticky;
+    width: 100%;
+}
+.basked-input{
+    display: flex;
+    justify-content: center;
+    padding-top:16px;
+    padding-bottom: 16px;
+}
+.basked-dishes-input {
+    padding-top: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
 
+}
+.amount-price-delete {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 8px;
+}
+.amount-price-delete span {
+    font-size: 14px;
+}
+.amount-price-delete img {
+    width: 20px;
+    cursor: pointer;
+}
+
+.change-icon-1:hover {
+    width: 20px;
+    background: url('/assets/icon/icon-minus-orange.png');
+}
+
+.seperation {
+    margin-top: 16px;
+}
+
+.total-price {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 14px;
+}
