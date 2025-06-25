@@ -19,11 +19,16 @@ body {
 
 .left-container {
     width: calc(100% - 300px);
+
 }
 
 .left-container-input {
     padding-left: 16px;
     padding-right: 16px;
+}
+.left-container-input h2 {
+    font-weight: 800;
+    font-size: 32px;
 }
 
 .span-ctn {
@@ -47,15 +52,15 @@ body {
 /*------Dishes navbar*/
 .menu-bar-container {
     height: 40px;
-    background-color: rgb(219, 219, 219);
+    background-color: rgba(219, 219, 219, 0.37);
     margin-top: 16px;
+    display: flex;
 }
 
 .menu-bar {
     display: flex;
     gap: 20px;
-    text-align: center;
-    padding-top: 10px;
+    align-items: center;
     padding-left: 16px;
 }
 .menu-bar a:hover{
@@ -64,9 +69,15 @@ body {
 
 .menu-bar a {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     color: black;
 }
+
+.menu-bar img {
+    width: 64px;
+}
+
+
 /*------dishes on main*/
 .main-food img{
     height: 150px;
@@ -76,7 +87,8 @@ body {
 }
 .main-food span {
     padding-left: 8px;
-    font-weight: 800;
+    padding-top: 16px;
+    font-weight: 600;
     font-size: 24px;
 }
 
@@ -89,16 +101,17 @@ body {
     margin-top: 8px;
     margin-bottom: 8px;
 }
-.pizza-salami {
+.pizza {
     line-height: 30px;
     border-style: solid;
     border-color: rgb(211, 211, 211);
     margin-top: 16px;
+    cursor: pointer;
 }
-.pizza-salami:hover {
+.pizza:hover {
     background-color: rgba(255, 128, 0, 0.247);
 }
-.pizza-salami p {
+.pizza p {
     color: rgb(255, 128, 0);
 }
 
@@ -155,4 +168,16 @@ body {
     padding-left: 8px;
     padding-right: 8px;
     font-size: 14px;
+}
+
+
+
+footer {
+    margin-top: 64px;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    bottom: 0;
+
 }

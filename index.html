@@ -23,22 +23,22 @@
 
 </head>
 
-<body onload="">
-
-    <nav class="navbar">
-        <div class="navbar-container">
-            <img class="logo-sizing" src="assets/Logo/Logo.png">
-            <img class="icon-sizing" src="assets/Favicon/apple-touch-icon.png">
-        </div>
-    </nav>
+<body onload="init()">
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <img class="logo-sizing" src="assets/Logo/Logo.png">
+                <img class="icon-sizing" src="assets/Favicon/apple-touch-icon.png">
+            </div>
+        </nav>
+    </header>
 
     <div class="main-container" id="content">
-
         <div class="left-container">
             <img class="opener-controll" src="assets/img/opener.jpg">
             <div class="left-container-input">
                 <div>
-                    <h2>House of Pizza</h2>
+                    <h2>Casa de Pizza</h2>
                 </div>
                 <div class="span-cnt">
                     <span class="span-color" id="evaluation">Bewertung (4,2 von 5 Sternen)</span>
@@ -46,7 +46,7 @@
 
                 <div class="menu-bar-container">
                     <nav class="menu-bar">
-                        <img src="">
+                        <img src="./assets/icon/icon-arrow-menu.png">
                         <a href="">Hauptgericht</a>
                         <a href="">Beilagen</a>
                     </nav>
@@ -56,131 +56,13 @@
                     <img src="./assets/img/hauptgericht.jpg">
                     <span>Hauptgerichte</span>
                 </div>
-
-                <div class="all-dishes">
-                    <div class="pizza-salami">
-                        <div class="border-controller">
-                            <h3>Pizza Salami</h3>
-                            <span>mit Salami und Champigions</span>
-                            <p>9.50 Euro</p>
-                        </div>
-                    </div>
-                    <div class="pizza-salami">
-                        <div class="border-controller">
-                            <h3>Pizza Salami</h3>
-                            <span>mit Salami und Champigions</span>
-                            <p>9.50 Euro</p>
-                        </div>
-                    </div>
-                    <div class="pizza-salami">
-                        <div class="border-controller">
-                            <h3>Pizza Salami</h3>
-                            <span>mit Salami und Champigions</span>
-                            <p>9.50 Euro</p>
-                        </div>
-                    </div>
-                    <div class="pizza-salami">
-                        <div class="border-controller">
-                            <h3>Pizza Salami</h3>
-                            <span>mit Salami und Champigions</span>
-                            <p>9.50 Euro</p>
-                        </div>
-                    </div>
-
-
-                </div>
             </div>
+            <div id="pizza-content" class="all-dishes"></div>
         </div>
 
-        <div class="right-container">
-            <div class="basked">
-                <div class="basked-input">
-                    <h3>Warenkorb</h3>
-                </div>
-                <hr>
-                <div class="basked-dishes-input">
-                    <div class="dishes">
-                        <span id="dish">Pizza Magarita</span>
-                    </div>
-                    <div class="amount-price-delete">
-                        <img class="change-icon-1" src="./assets/icon/icon-minus-orange.png">
-                        <span id="amount"> 2 </span>
-                        <img class="change-icon-2" src="./assets/icon/icon-plus-orange.png">
-                        <span id="price"> 64,90</span>
-                        <img src="./assets/icon/icon-trash-black.png">
-                    </div>
-                </div>
+        <div class="right-container" id="basket-wrapper">
 
-                <div class="basked-dishes-input">
-                    <div class="dishes">
-                        <span id="dish">Pizza Magarita</span>
-                    </div>
-                    <div class="amount-price-delete">
-                        <img class="change-icon-1" src="./assets/icon/icon-minus-orange.png">
-                        <span id="amount"> 2 </span>
-                        <img class="change-icon-2" src="./assets/icon/icon-plus-orange.png">
-                        <span id="price"> 64,90</span>
-                        <img src="./assets/icon/icon-trash-black.png">
-                    </div>
-                </div>
-
-                <div class="basked-dishes-input">
-                    <div class="dishes">
-                        <span id="dish">Pizza Magarita</span>
-                    </div>
-                    <div class="amount-price-delete">
-                        <img class="change-icon-1" src="./assets/icon/icon-minus-orange.png">
-                        <span id="amount"> 2 </span>
-                        <img class="change-icon-2" src="./assets/icon/icon-plus-orange.png">
-                        <span id="price"> 64,90</span>
-                        <img src="./assets/icon/icon-trash-black.png">
-                    </div>
-                </div>
-
-
-                <div class="basked-dishes-input">
-                    <div class="dishes">
-                        <span id="dish">Pizza Magarita</span>
-                    </div>
-                    <div class="amount-price-delete">
-                        <img class="change-icon-1" src="./assets/icon/icon-minus-orange.png">
-                        <span id="amount"> 2 </span>
-                        <img class="change-icon-2" src="./assets/icon/icon-plus-orange.png">
-                        <span id="price"> 64,90</span>
-                        <img src="./assets/icon/icon-trash-black.png">
-                    </div>
-                </div>
-
-                <div class="basked-dishes-input">
-                    <div class="dishes">
-                        <span id="dish">Pizza Magarita</span>
-                    </div>
-                    <div class="amount-price-delete">
-                        <img class="change-icon-1" src="./assets/icon/icon-minus-orange.png">
-                        <span id="amount"> 2 </span>
-                        <img class="change-icon-2" src="./assets/icon/icon-plus-orange.png">
-                        <span id="price"> 64,90</span>
-                        <img src="./assets/icon/icon-trash-black.png">
-                    </div>
-                </div>
-                <hr class="seperation">
-                <div class="total-price">
-                    <span>Zwischensumme</span>
-                    <p id="price-without-order"> XXX</p>
-                </div>
-                <div class="total-price">
-                    <span>Lieferkosten</span>
-                    <p id="price-without-order"> XXX</p>
-                </div>
-                <div class="total-price">
-                    <span style="font-weight: 800;">Gesamtkosten</span>
-                    <p id="price-without-order"> XXX</p>
-                </div>
-
-            </div>
         </div>
-
-
 
     </div>
 
