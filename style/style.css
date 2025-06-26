@@ -116,7 +116,7 @@ body {
 }
 
 
-/* Warenkorb*/
+/*------> Basket*/
 .right-container {
     width: 300px;
     flex-grow: 1;
@@ -124,6 +124,7 @@ body {
 }
 
 .basked {
+    top: 0;
     position: sticky;
     width: 100%;
 }

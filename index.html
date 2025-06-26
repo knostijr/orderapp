@@ -19,7 +19,7 @@
 
     <script src="scripts/script.js"></script>
     <script src="scripts/templates.js"></script>
-    <script src="scripts/foodInput.js"></script>
+    <script src="scripts/datenbank.js"></script>
 
 </head>
 
@@ -60,8 +60,33 @@
             <div id="pizza-content" class="all-dishes"></div>
         </div>
 
-        <div class="right-container" id="basket-wrapper">
+        <div class="right-container">
+            <div class="basked">
+                <div class="basked-input">
+                    <h3>Warenkorb</h3>
+                </div>
+                <hr>
 
+                <div id="basket-wrapper" class="basked-dishes-input"></div>
+
+                <hr class="seperation">
+                
+                <div class="total-price">
+                    <span>Zwischensumme</span>
+                    <p id="subtotal">0</p>
+                </div>
+                <div class="total-price">
+                    <span>Lieferkosten</span>
+                    <p>5.00</p>
+                </div>
+                <div class="total-price">
+                    <span style="font-weight: 800;">Gesamtkosten</span>
+                    <p id="totalPrice"> XXX</p>
+                </div>
+
+                    <button onclick="sendBasket()" class="sende-basket-button">Bestellen</button>
+                    <p id="order-succesfull" class=></p>
+            </div>
         </div>
 
     </div>
