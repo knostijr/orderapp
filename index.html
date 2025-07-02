@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OrderApp</title>
 
+    <link rel="icon" type="image/png" href="./assets/Favicon/favicon-16x16.png">
+    </link>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,
@@ -70,24 +73,28 @@
                 <div id="basket-wrapper" class="basked-dishes-input"></div>
 
                 <hr class="seperation">
-                
+
                 <div class="total-price">
                     <span>Zwischensumme</span>
                     <p id="subtotal">0</p>
                 </div>
                 <div class="total-price">
                     <span>Lieferkosten</span>
-                    <p>5.00</p>
+                    <p>5.00€</p>
                 </div>
                 <div class="total-price">
                     <span style="font-weight: 800;">Gesamtkosten</span>
-                    <p id="totalPrice"> XXX</p>
+                    <p id="totalPrice"></p>
                 </div>
-
+                <div class="btn-controller">
                     <button onclick="sendBasket()" class="sende-basket-button">Bestellen</button>
-                    <p id="order-succesfull" class=></p>
+                </div>
+                <div class="order-done-container">
+                    <p class="order-done" id="order-succesfull"></p>
+                </div>
             </div>
         </div>
+    </div>
 
     </div>
 

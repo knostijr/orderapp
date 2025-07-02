@@ -84,7 +84,7 @@ function priceCalculator() {
 
 function sendBasket() {
     myBasket.length = 0;
-    document.getElementById('order-succesfull').innerHTML = 'Deine Besttelung war erfolgreich';
+    document.getElementById('order-succesfull').innerHTML = 'Deine Bestellung war erfolgreich';
     updateBasket();
     priceCalculator();
 }
@@ -93,8 +93,6 @@ function sendBasket() {
 function toggleButton() {
     document.getElementById('content').classList.toggle('');
 }
-
-
 
 
 

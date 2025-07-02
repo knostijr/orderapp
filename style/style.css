@@ -165,20 +165,52 @@ body {
 .total-price {
     display: flex;
     justify-content: space-between;
-    padding-top: 8px;
+    padding-top: 16px;
     padding-left: 8px;
     padding-right: 8px;
     font-size: 14px;
 }
 
+.btn-controller {
+    display: flex;
+    justify-content: center;
+    
+}
+.sende-basket-button{
+    width: 200px;
+    height: 32px;
+    background-color: rgba(136, 134, 134, 0.24);
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+    margin-top: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
 
+}
 
+.sende-basket-button:hover {
+    background-color: rgb(255, 128, 0);
+    color: whitesmoke
+    
+}
+
+.order-done-container {
+ padding-top: 16px;
+ display: flex;
+ justify-content: center;
+
+}
+.order-done {
+    font-weight: 400;
+}
+/* ------> Footer */
 footer {
     margin-top: 64px;
     height: 100px;
     width: 100%;
-    background-color: black;
-    position: fixed;
+    background-color: rgba(148, 143, 143, 0.534);
+    
     bottom: 0;
 
 }

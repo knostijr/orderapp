@@ -30,6 +30,27 @@ let myDishes = [
         "price": 15.90,
         "description": "mit Currychicken, Zwiebeln, Jalapenos und Barbecue-Sauce"
     },
+        {
+        "name": "Pizza Seattle",
+        "price": 15.90,
+        "description": "mit Currychicken, Zwiebeln, Jalapenos und Barbecue-Sauce"
+    },
+        {
+        "name": "Pizza Seattle",
+        "price": 15.90,
+        "description": "mit Currychicken, Zwiebeln, Jalapenos und Barbecue-Sauce"
+    },
+        {
+        "name": "Pizza Seattle",
+        "price": 15.90,
+        "description": "mit Currychicken, Zwiebeln, Jalapenos und Barbecue-Sauce"
+    },
+        {
+        "name": "Pizza Seattle",
+        "price": 15.90,
+        "description": "mit Currychicken, Zwiebeln, Jalapenos und Barbecue-Sauce"
+    },
+    
 
 
 ];
