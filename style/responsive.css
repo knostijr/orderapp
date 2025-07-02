@@ -1,5 +1,29 @@
 @media (max-width: 800px) {
     .right-container {
-        display: none;
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: orange;
+
+}
+    #orderBasket {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background: orange;
     }
+
+
+    .d-none {
+        display: block;
+        position: fixed;
+        bottom: 10px;
+        left: 50%;
+    }
+
 }

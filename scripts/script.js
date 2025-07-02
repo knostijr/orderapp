@@ -91,9 +91,8 @@ function sendBasket() {
 
 
 function toggleButton() {
-    document.getElementById('content').classList.toggle('');
+    document.getElementById('orderBasket').classList.toggle('right-container');
+
 }
-
-
 
 
